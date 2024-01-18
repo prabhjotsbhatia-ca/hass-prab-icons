@@ -23,7 +23,7 @@ const PRAB_ICONS_MAP = {
 };
 
 async function getIcon(name) {
-  return { path: PRAB_ICONS_MAP[name]?.path, iewBox: "0 0 512 512" };
+  return { path: PRAB_ICONS_MAP[name]?.path, viewBox: "0 0 512 512" };
 }
 async function getIconList() {
   return Object.entries(PRAB_ICONS_MAP).map(([icon, content]) => ({
