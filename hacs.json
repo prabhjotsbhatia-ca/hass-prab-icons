@@ -1,3 +1,5 @@
 {
-    "name": "HASS PRAB ICONS"
+    "name": "HASS PRAB ICONS",
+    "render_readme": true,
+    "filename": "hass-prab-icons.js"
 }
